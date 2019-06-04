@@ -1,0 +1,49 @@
+#config_version=5
+# machine-config.yaml
+
+# Provided by John Marsh @john.marsh (Slack)
+
+hardware:
+  platform: fast
+  driverboards: fast
+  rgb_dmd: smartmatrix
+
+smartmatrix:
+  dmd:
+    port: /dev/ttyUSB4
+    baud: 2500000
+    debug: True
+
+rgb_dmds:
+  dmd:
+    hardware_brightness: 0.3
+    fps: 20
+    source_display: dmd
+
+fast:
+  ports: /dev/ttyUSB1, /dev/ttyUSB2
+  debug: True
+  
+config:
+- machine-config.yaml
+
+displays:
+  window:
+    width: 800
+    height: 600
+  dmd:
+    width: 128
+    height: 32
+    default: True
+
+window:
+  width: 800
+  height: 600
+  #fullscreen: true
+  borderless: true
+  title: Test Config
+  resizable: false
+  exit_on_escape: true
+  source_display: window
+
+

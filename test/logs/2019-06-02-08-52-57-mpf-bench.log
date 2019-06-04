@@ -1,0 +1,37 @@
+2019-06-02 08:52:57,914 : INFO : Machine : Mission Pinball Framework Core Engine v0.52.2
+2019-06-02 08:52:57,916 : INFO : Machine : Command line arguments: {'jsonlogging': False, 'pause': False, 'no_load_cache': False, 'text_ui': True, 'bcp': True, 'loglevel': 15, 'force_platform': None, 'production': False, 'create_config_cache': True, 'consoleloglevel': 20, 'mc_file_name': None, 'force_assets_load': False, 'no_sound': False, 'configfile': ['config.yaml'], 'mpfconfigfile': '/usr/local/lib/python3.5/dist-packages/mpf/mpfconfig.yaml', 'syslog_address': None, 'logfile': 'logs/2019-06-02-08-52-57-mpf-bench.log'}
+2019-06-02 08:52:57,916 : INFO : Machine : MPF path: /usr/local/lib/python3.5/dist-packages/mpf
+2019-06-02 08:52:57,916 : INFO : Machine : Machine path: /home/murray/pinball/machines/test
+2019-06-02 08:52:57,916 : INFO : Machine : Platform: linux
+2019-06-02 08:52:57,916 : INFO : Machine : Python executable location: /usr/bin/python3
+2019-06-02 08:52:57,917 : INFO : Machine : Python version: 3.5.3 (64-bit)
+2019-06-02 08:52:57,917 : INFO : Machine : Machine config file #1: config.yaml
+2019-06-02 08:52:57,919 : WARNING : ConfigProcessor : Config file in cache changed: /home/murray/pinball/machines/test/config/config.yaml
+2019-06-02 08:52:57,919 : INFO : ConfigProcessor : Loading config from file /usr/local/lib/python3.5/dist-packages/mpf/mpfconfig.yaml.
+2019-06-02 08:52:58,195 : INFO : ConfigProcessor : Loading config: /usr/local/lib/python3.5/dist-packages/mpf/mpfconfig.yaml
+2019-06-02 08:52:58,218 : INFO : ConfigProcessor : Loading config from file /home/murray/pinball/machines/test/config/config.yaml.
+2019-06-02 08:52:58,239 : INFO : ConfigProcessor : Loading config: /home/murray/pinball/machines/test/config/config.yaml
+2019-06-02 08:52:58,242 : INFO : ConfigProcessor : Config file cache created: /tmp/f9b476974087260b844455b1771539d9.mpf_cache
+2019-06-02 08:52:58,244 : INFO : Machine : Initialise MPF.
+2019-06-02 08:52:58,371 : INFO : EventManager : Event: ======'machine_var_credits_string'====== Args={'prev_value': None, 'value': 'FREE PLAY', 'change': True}
+2019-06-02 08:52:58,458 : INFO : EventManager : Event: ======'machine_var_mpf_version'====== Args={'prev_value': None, 'value': 'MPF v0.52.2', 'change': True}
+2019-06-02 08:52:58,458 : INFO : EventManager : Event: ======'machine_var_mpf_extended_version'====== Args={'prev_value': None, 'value': 'MPF v0.52.2, Config version:5, Show version: 5, BCP version:1.1', 'change': True}
+2019-06-02 08:52:58,458 : INFO : EventManager : Event: ======'machine_var_python_version'====== Args={'prev_value': None, 'value': '3.5.3', 'change': True}
+2019-06-02 08:52:58,460 : INFO : EventManager : Event: ======'machine_var_platform'====== Args={'prev_value': None, 'value': 'Linux-4.9.0-9-amd64-x86_64-with-debian-9.9', 'change': True}
+2019-06-02 08:52:58,460 : INFO : EventManager : Event: ======'machine_var_platform_system'====== Args={'prev_value': None, 'value': 'Linux', 'change': True}
+2019-06-02 08:52:58,460 : INFO : EventManager : Event: ======'machine_var_platform_release'====== Args={'prev_value': None, 'value': '4.9.0-9-amd64', 'change': True}
+2019-06-02 08:52:58,460 : INFO : EventManager : Event: ======'machine_var_platform_version'====== Args={'prev_value': None, 'value': '#1 SMP Debian 4.9.168-1+deb9u2 (2019-05-13)', 'change': True}
+2019-06-02 08:52:58,461 : INFO : EventManager : Event: ======'machine_var_platform_machine'====== Args={'prev_value': None, 'value': 'x86_64', 'change': True}
+2019-06-02 08:52:58,461 : INFO : EventManager : Event: ======'init_phase_1'====== Args={}
+2019-06-02 08:52:58,505 : INFO : ConfigProcessor : Loading config from cache: /tmp/6e6ba486280ccbb9d292b9b4f6baec72.mpf_cache
+2019-06-02 08:52:58,513 : INFO : ConfigProcessor : Loading config from cache: /tmp/e6ce21bb7a7432af32f9dbbe415bcaaa.mpf_cache
+2019-06-02 08:52:58,528 : INFO : EventManager : Event: ======'init_phase_2'====== Args={}
+2019-06-02 08:52:58,539 : INFO : EventManager : Event: ======'bcp_connection_attempt'====== Args={'host': 'localhost', 'port': 5050, 'name': 'local_display'}
+2019-06-02 08:52:58,546 : INFO : BCPClientSocket.local_display : Connecting BCP to 'local_display' at localhost:5050...
+2019-06-02 08:52:59,795 : INFO : BCPClientSocket.local_display : Connected BCP to 'local_display' localhost:5050
+2019-06-02 08:52:59,797 : INFO : EventManager : Event: ======'bcp_clients_connected'====== Args={}
+2019-06-02 08:52:59,811 : INFO : EventManager : Event: ======'init_phase_3'====== Args={}
+2019-06-02 08:52:59,811 : INFO : Machine : Starting the main run loop.
+2019-06-02 08:52:59,812 : INFO : Machine : Shutting down...
+2019-06-02 08:52:59,812 : INFO : EventManager : Event: ======'shutdown'====== Args={}
+2019-06-02 08:52:59,833 : INFO : root : MPF run loop ended.

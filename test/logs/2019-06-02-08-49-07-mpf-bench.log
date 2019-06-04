@@ -1,0 +1,54 @@
+2019-06-02 08:49:07,447 : INFO : Machine : Mission Pinball Framework Core Engine v0.52.2
+2019-06-02 08:49:07,448 : INFO : Machine : Command line arguments: {'syslog_address': None, 'consoleloglevel': 20, 'logfile': 'logs/2019-06-02-08-49-07-mpf-bench.log', 'bcp': True, 'no_sound': False, 'loglevel': 15, 'text_ui': True, 'mc_file_name': None, 'pause': False, 'production': False, 'create_config_cache': True, 'force_assets_load': False, 'mpfconfigfile': '/usr/local/lib/python3.5/dist-packages/mpf/mpfconfig.yaml', 'force_platform': None, 'no_load_cache': False, 'jsonlogging': False, 'configfile': ['config.yaml']}
+2019-06-02 08:49:07,449 : INFO : Machine : MPF path: /usr/local/lib/python3.5/dist-packages/mpf
+2019-06-02 08:49:07,449 : INFO : Machine : Machine path: /home/murray/pinball/machines/test
+2019-06-02 08:49:07,449 : INFO : Machine : Platform: linux
+2019-06-02 08:49:07,449 : INFO : Machine : Python executable location: /usr/bin/python3
+2019-06-02 08:49:07,449 : INFO : Machine : Python version: 3.5.3 (64-bit)
+2019-06-02 08:49:07,449 : INFO : Machine : Machine config file #1: config.yaml
+2019-06-02 08:49:07,451 : WARNING : ConfigProcessor : Cache file not found: /tmp/f9b476974087260b844455b1771539d9.mpf_cache
+2019-06-02 08:49:07,451 : INFO : ConfigProcessor : Loading config from file /usr/local/lib/python3.5/dist-packages/mpf/mpfconfig.yaml.
+2019-06-02 08:49:07,729 : INFO : ConfigProcessor : Loading config: /usr/local/lib/python3.5/dist-packages/mpf/mpfconfig.yaml
+2019-06-02 08:49:07,752 : INFO : ConfigProcessor : Loading config from file /home/murray/pinball/machines/test/config/config.yaml.
+2019-06-02 08:49:07,755 : INFO : ConfigProcessor : Config file cache created: /tmp/f9b476974087260b844455b1771539d9.mpf_cache
+2019-06-02 08:49:07,757 : INFO : Machine : Initialise MPF.
+2019-06-02 08:49:07,902 : INFO : EventManager : Event: ======'machine_var_credits_string'====== Args={'prev_value': None, 'value': 'FREE PLAY', 'change': True}
+2019-06-02 08:49:07,999 : INFO : EventManager : Event: ======'machine_var_mpf_version'====== Args={'prev_value': None, 'value': 'MPF v0.52.2', 'change': True}
+2019-06-02 08:49:07,999 : INFO : EventManager : Event: ======'machine_var_mpf_extended_version'====== Args={'prev_value': None, 'value': 'MPF v0.52.2, Config version:5, Show version: 5, BCP version:1.1', 'change': True}
+2019-06-02 08:49:07,999 : INFO : EventManager : Event: ======'machine_var_python_version'====== Args={'prev_value': None, 'value': '3.5.3', 'change': True}
+2019-06-02 08:49:08,001 : INFO : EventManager : Event: ======'machine_var_platform'====== Args={'prev_value': None, 'value': 'Linux-4.9.0-9-amd64-x86_64-with-debian-9.9', 'change': True}
+2019-06-02 08:49:08,001 : INFO : EventManager : Event: ======'machine_var_platform_system'====== Args={'prev_value': None, 'value': 'Linux', 'change': True}
+2019-06-02 08:49:08,002 : INFO : EventManager : Event: ======'machine_var_platform_release'====== Args={'prev_value': None, 'value': '4.9.0-9-amd64', 'change': True}
+2019-06-02 08:49:08,002 : INFO : EventManager : Event: ======'machine_var_platform_version'====== Args={'prev_value': None, 'value': '#1 SMP Debian 4.9.168-1+deb9u2 (2019-05-13)', 'change': True}
+2019-06-02 08:49:08,002 : INFO : EventManager : Event: ======'machine_var_platform_machine'====== Args={'prev_value': None, 'value': 'x86_64', 'change': True}
+2019-06-02 08:49:08,002 : INFO : EventManager : Event: ======'init_phase_1'====== Args={}
+2019-06-02 08:49:08,067 : WARNING : ConfigProcessor : Cache file not found: /tmp/e6ce21bb7a7432af32f9dbbe415bcaaa.mpf_cache
+2019-06-02 08:49:08,068 : INFO : ConfigProcessor : Loading config from file /usr/local/lib/python3.5/dist-packages/mpf/modes/game/config/game.yaml.
+2019-06-02 08:49:08,075 : INFO : ConfigProcessor : Loading config: /usr/local/lib/python3.5/dist-packages/mpf/modes/game/config/game.yaml
+2019-06-02 08:49:08,075 : INFO : ConfigProcessor : Config file cache created: /tmp/e6ce21bb7a7432af32f9dbbe415bcaaa.mpf_cache
+2019-06-02 08:49:08,087 : WARNING : ConfigProcessor : Cache file not found: /tmp/6e6ba486280ccbb9d292b9b4f6baec72.mpf_cache
+2019-06-02 08:49:08,087 : INFO : ConfigProcessor : Loading config from file /usr/local/lib/python3.5/dist-packages/mpf/modes/attract/config/attract.yaml.
+2019-06-02 08:49:08,092 : INFO : ConfigProcessor : Loading config: /usr/local/lib/python3.5/dist-packages/mpf/modes/attract/config/attract.yaml
+2019-06-02 08:49:08,093 : INFO : ConfigProcessor : Config file cache created: /tmp/6e6ba486280ccbb9d292b9b4f6baec72.mpf_cache
+2019-06-02 08:49:08,109 : INFO : EventManager : Event: ======'init_phase_2'====== Args={}
+2019-06-02 08:49:08,117 : INFO : EventManager : Event: ======'bcp_connection_attempt'====== Args={'name': 'local_display', 'port': 5050, 'host': 'localhost'}
+2019-06-02 08:49:08,126 : INFO : BCPClientSocket.local_display : Connecting BCP to 'local_display' at localhost:5050...
+2019-06-02 08:49:09,374 : INFO : BCPClientSocket.local_display : Connected BCP to 'local_display' localhost:5050
+2019-06-02 08:49:09,376 : INFO : EventManager : Event: ======'bcp_clients_connected'====== Args={}
+2019-06-02 08:49:09,393 : INFO : EventManager : Event: ======'init_phase_3'====== Args={}
+2019-06-02 08:49:09,399 : INFO : EventManager : Event: ======'machine_var_master_volume'====== Args={'prev_value': None, 'value': 0.5, 'change': True}
+2019-06-02 08:49:09,415 : INFO : EventManager : Event: ======'init_phase_4'====== Args={}
+2019-06-02 08:49:09,418 : INFO : EventManager : Event: ======'machine_var_audits_player_score'====== Args={'prev_value': None, 'value': {'top': [], 'average': 0, 'total': 0}, 'change': True}
+2019-06-02 08:49:09,419 : INFO : EventManager : Event: ======'init_phase_5'====== Args={}
+2019-06-02 08:49:09,420 : INFO : EventManager : Event: ======'init_done'====== Args={}
+2019-06-02 08:49:09,420 : INFO : EventManager : Event: ======'machine_reset_phase_1'====== Args={}
+2019-06-02 08:49:09,448 : INFO : EventManager : Event: ======'machine_reset_phase_2'====== Args={}
+2019-06-02 08:49:09,449 : INFO : EventManager : Event: ======'machine_reset_phase_3'====== Args={}
+2019-06-02 08:49:09,449 : INFO : EventManager : Event: ======'reset_complete'====== Args={}
+2019-06-02 08:49:09,449 : INFO : EventManager : Event: ======'mode_attract_will_start'====== Args={}
+2019-06-02 08:49:09,452 : INFO : EventManager : Event: ======'mode_attract_starting'====== Args={}
+2019-06-02 08:49:09,453 : INFO : Mode.attract : Started. Priority: 10
+2019-06-02 08:49:09,454 : INFO : EventManager : Event: ======'mode_attract_started'====== Args={}
+2019-06-02 08:49:09,454 : INFO : EventManager : Event: ======'collecting_balls_complete'====== Args={}
+2019-06-02 08:49:09,455 : INFO : Machine : Starting the main run loop.
+2019-06-02 08:49:28,852 : INFO : root : MPF run loop ended.

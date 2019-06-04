@@ -1,0 +1,2 @@
+cd ~/pinball/machines/test
+mpf both -a

@@ -1,0 +1,254 @@
+2019-06-03 22:08:47,241 : INFO : Machine : Mission Pinball Framework Core Engine v0.53.0-dev.34
+2019-06-03 22:08:47,242 : INFO : Machine : Command line arguments: {'consoleloglevel': 20, 'logfile': 'logs/2019-06-03-22-08-47-mpf-bench.log', 'configfile': ['config.yaml'], 'force_platform': None, 'mc_file_name': None, 'no_sound': False, 'text_ui': True, 'pause': False, 'loglevel': 15, 'jsonlogging': False, 'mpfconfigfile': '/usr/local/lib/python3.5/dist-packages/mpf/mpfconfig.yaml', 'bcp': True, 'no_load_cache': True, 'production': False, 'syslog_address': None, 'force_assets_load': False, 'create_config_cache': True}
+2019-06-03 22:08:47,243 : INFO : Machine : MPF path: /usr/local/lib/python3.5/dist-packages/mpf
+2019-06-03 22:08:47,243 : INFO : Machine : Machine path: /home/murray/pinball/machines/playball
+2019-06-03 22:08:47,243 : INFO : Machine : Platform: linux
+2019-06-03 22:08:47,243 : INFO : Machine : Python executable location: /usr/bin/python3
+2019-06-03 22:08:47,243 : INFO : Machine : Python version: 3.5.3 (64-bit)
+2019-06-03 22:08:47,243 : INFO : Machine : Machine config file #1: config.yaml
+2019-06-03 22:08:47,246 : INFO : ConfigProcessor : Loading config from file /usr/local/lib/python3.5/dist-packages/mpf/mpfconfig.yaml.
+2019-06-03 22:08:47,549 : INFO : ConfigProcessor : Loading config: /usr/local/lib/python3.5/dist-packages/mpf/mpfconfig.yaml
+2019-06-03 22:08:48,859 : INFO : ConfigValidator : Config spec file cache created: /tmp/config_spec.mpf_cache
+2019-06-03 22:08:48,877 : INFO : ConfigProcessor : Loading config from file /home/murray/pinball/machines/playball/config/config.yaml.
+2019-06-03 22:08:48,880 : INFO : ConfigProcessor : Config file cache created: /tmp/aff9024c6996b52d89769e79f935c721.mpf_cache
+2019-06-03 22:08:48,882 : INFO : Machine : Initialise MPF.
+2019-06-03 22:08:49,199 : INFO : EventManager : Event: ======'machine_var_credits_string'====== Args={'prev_value': None, 'change': True, 'value': 'FREE PLAY'}
+2019-06-03 22:08:49,265 : INFO : EventManager : Event: ======'machine_var_player1_score'====== Args={'prev_value': None, 'change': True, 'value': 64940}
+2019-06-03 22:08:49,265 : INFO : EventManager : Event: ======'machine_var_mpf_version'====== Args={'prev_value': None, 'change': True, 'value': 'MPF v0.53.0-dev.34'}
+2019-06-03 22:08:49,266 : INFO : EventManager : Event: ======'machine_var_mpf_extended_version'====== Args={'prev_value': None, 'change': True, 'value': 'MPF v0.53.0-dev.34, Config version:5, Show version: 5, BCP version:1.1'}
+2019-06-03 22:08:49,266 : INFO : EventManager : Event: ======'machine_var_python_version'====== Args={'prev_value': None, 'change': True, 'value': '3.5.3'}
+2019-06-03 22:08:49,268 : INFO : EventManager : Event: ======'machine_var_platform'====== Args={'prev_value': None, 'change': True, 'value': 'Linux-4.9.0-9-amd64-x86_64-with-debian-9.9'}
+2019-06-03 22:08:49,268 : INFO : EventManager : Event: ======'machine_var_platform_system'====== Args={'prev_value': None, 'change': True, 'value': 'Linux'}
+2019-06-03 22:08:49,268 : INFO : EventManager : Event: ======'machine_var_platform_release'====== Args={'prev_value': None, 'change': True, 'value': '4.9.0-9-amd64'}
+2019-06-03 22:08:49,268 : INFO : EventManager : Event: ======'machine_var_platform_version'====== Args={'prev_value': None, 'change': True, 'value': '#1 SMP Debian 4.9.168-1+deb9u2 (2019-05-13)'}
+2019-06-03 22:08:49,268 : INFO : EventManager : Event: ======'machine_var_platform_machine'====== Args={'prev_value': None, 'change': True, 'value': 'x86_64'}
+2019-06-03 22:08:49,269 : INFO : EventManager : Event: ======'init_phase_1'====== Args={}
+2019-06-03 22:08:49,318 : INFO : ConfigProcessor : Loading config from file /usr/local/lib/python3.5/dist-packages/mpf/modes/attract/config/attract.yaml.
+2019-06-03 22:08:49,324 : INFO : ConfigProcessor : Loading config: /usr/local/lib/python3.5/dist-packages/mpf/modes/attract/config/attract.yaml
+2019-06-03 22:08:49,324 : INFO : ConfigProcessor : Loading config from file /home/murray/pinball/machines/playball/modes/attract/config/attract.yaml.
+2019-06-03 22:08:49,327 : INFO : ConfigProcessor : Loading config: /home/murray/pinball/machines/playball/modes/attract/config/attract.yaml
+2019-06-03 22:08:49,328 : INFO : ConfigProcessor : Config file cache created: /tmp/fb4565eccb914ab5190b7247b7615128.mpf_cache
+2019-06-03 22:08:49,336 : INFO : ConfigProcessor : Loading config from file /usr/local/lib/python3.5/dist-packages/mpf/modes/game/config/game.yaml.
+2019-06-03 22:08:49,342 : INFO : ConfigProcessor : Loading config: /usr/local/lib/python3.5/dist-packages/mpf/modes/game/config/game.yaml
+2019-06-03 22:08:49,343 : INFO : ConfigProcessor : Config file cache created: /tmp/e6ce21bb7a7432af32f9dbbe415bcaaa.mpf_cache
+2019-06-03 22:08:49,361 : INFO : EventManager : Event: ======'init_phase_2'====== Args={}
+2019-06-03 22:08:49,365 : INFO : EventManager : Event: ======'bcp_connection_attempt'====== Args={'port': 5050, 'host': 'localhost', 'name': 'local_display'}
+2019-06-03 22:08:49,368 : INFO : BCPClientSocket.local_display : Connecting BCP to 'local_display' at localhost:5050...
+2019-06-03 22:08:50,566 : INFO : BCPClientSocket.local_display : Connected BCP to 'local_display' localhost:5050
+2019-06-03 22:08:50,568 : INFO : EventManager : Event: ======'bcp_clients_connected'====== Args={}
+2019-06-03 22:08:50,634 : INFO : EventManager : Event: ======'init_phase_3'====== Args={}
+2019-06-03 22:08:50,659 : INFO : AssetManager : Registering Asset: attract_light_show, File: attract_light_show.yaml, Default Group: default, Final Config: {'file': '/home/murray/pinball/machines/playball/modes/attract/shows/attract_light_show.yaml', 'load': 'preload'}
+2019-06-03 22:08:50,659 : INFO : AssetManager : Registering Asset: attract_display_loop, File: attract_display_loop.yaml, Default Group: default, Final Config: {'file': '/home/murray/pinball/machines/playball/modes/attract/shows/attract_display_loop.yaml', 'load': 'preload'}
+2019-06-03 22:08:50,674 : INFO : EventManager : Event: ======'machine_var_master_volume'====== Args={'prev_value': None, 'change': True, 'value': 0.5}
+2019-06-03 22:08:50,675 : INFO : ConfigProcessor : Loading config from file /home/murray/pinball/machines/playball/modes/attract/shows/attract_display_loop.yaml.
+2019-06-03 22:08:50,711 : INFO : ConfigProcessor : Loading config: /home/murray/pinball/machines/playball/modes/attract/shows/attract_display_loop.yaml
+2019-06-03 22:08:50,712 : INFO : ConfigProcessor : Config file cache created: /tmp/0177f31a44f30f6236737f4abac30a93.mpf_cache
+2019-06-03 22:08:50,734 : INFO : EventManager : Event: ======'loading_assets'====== Args={'total': 2, 'remaining': 1, 'loaded': 1, 'percent': 50}
+2019-06-03 22:08:50,734 : INFO : AssetManager : Loading assets: 1/2 (50%)
+2019-06-03 22:08:50,734 : INFO : ConfigProcessor : Loading config from file /home/murray/pinball/machines/playball/modes/attract/shows/attract_light_show.yaml.
+2019-06-03 22:08:50,749 : INFO : ConfigProcessor : Loading config: /home/murray/pinball/machines/playball/modes/attract/shows/attract_light_show.yaml
+2019-06-03 22:08:50,749 : INFO : ConfigProcessor : Config file cache created: /tmp/a230bccf1189db926814b3db634e4458.mpf_cache
+2019-06-03 22:08:50,753 : INFO : EventManager : Event: ======'loading_assets'====== Args={'total': 2, 'remaining': 0, 'loaded': 2, 'percent': 100}
+2019-06-03 22:08:50,753 : INFO : EventManager : Event: ======'asset_loading_complete'====== Args={}
+2019-06-03 22:08:50,753 : INFO : AssetManager : Loading assets: 2/2 (100%)
+2019-06-03 22:08:50,753 : INFO : EventManager : Event: ======'init_phase_4'====== Args={}
+2019-06-03 22:08:50,792 : INFO : EventManager : Event: ======'machine_var_audits_events_game_started'====== Args={'prev_value': None, 'change': True, 'value': 38}
+2019-06-03 22:08:50,794 : INFO : EventManager : Event: ======'machine_var_audits_events_game_ended'====== Args={'prev_value': None, 'change': True, 'value': 21}
+2019-06-03 22:08:50,795 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_left_vt_300'====== Args={'prev_value': None, 'change': True, 'value': 0}
+2019-06-03 22:08:50,795 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_double_lane'====== Args={'prev_value': None, 'change': True, 'value': 4}
+2019-06-03 22:08:50,796 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_l_varitarget_inplay'====== Args={'prev_value': None, 'change': True, 'value': 0}
+2019-06-03 22:08:50,797 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_left_vt_500'====== Args={'prev_value': None, 'change': True, 'value': 71}
+2019-06-03 22:08:50,798 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_right_vt_inplay'====== Args={'prev_value': None, 'change': True, 'value': 5}
+2019-06-03 22:08:50,799 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_left_vt_200'====== Args={'prev_value': None, 'change': True, 'value': 0}
+2019-06-03 22:08:50,800 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_l_target_triple'====== Args={'prev_value': None, 'change': True, 'value': 5}
+2019-06-03 22:08:50,801 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_r_varitarget_inplay'====== Args={'prev_value': None, 'change': True, 'value': 4}
+2019-06-03 22:08:50,802 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_upper_bumpers_10pts'====== Args={'prev_value': None, 'change': True, 'value': 5}
+2019-06-03 22:08:50,802 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_right_target_2'====== Args={'prev_value': None, 'change': True, 'value': 14}
+2019-06-03 22:08:50,803 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_first_base'====== Args={'prev_value': None, 'change': True, 'value': 10}
+2019-06-03 22:08:50,804 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_home_run_lanes'====== Args={'prev_value': None, 'change': True, 'value': 16}
+2019-06-03 22:08:50,805 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_left_pop_bumper'====== Args={'prev_value': None, 'change': True, 'value': 175}
+2019-06-03 22:08:50,806 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_r_target_single'====== Args={'prev_value': None, 'change': True, 'value': 7}
+2019-06-03 22:08:50,807 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_r_varitarget_500'====== Args={'prev_value': None, 'change': True, 'value': 0}
+2019-06-03 22:08:50,808 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_right_vt_200'====== Args={'prev_value': None, 'change': True, 'value': 323}
+2019-06-03 22:08:50,809 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_l_varitarget_300'====== Args={'prev_value': None, 'change': True, 'value': 0}
+2019-06-03 22:08:50,810 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_triple_lanes'====== Args={'prev_value': None, 'change': True, 'value': 39}
+2019-06-03 22:08:50,811 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_r_pop_bumper'====== Args={'prev_value': None, 'change': True, 'value': 1}
+2019-06-03 22:08:50,812 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_left_flipper'====== Args={'prev_value': None, 'change': True, 'value': 275}
+2019-06-03 22:08:50,813 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_l_slingshot'====== Args={'prev_value': None, 'change': True, 'value': 0}
+2019-06-03 22:08:50,814 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_bumpers'====== Args={'prev_value': None, 'change': True, 'value': 105}
+2019-06-03 22:08:50,815 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_l_target_single'====== Args={'prev_value': None, 'change': True, 'value': 0}
+2019-06-03 22:08:50,816 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_single_lanes'====== Args={'prev_value': None, 'change': True, 'value': 8}
+2019-06-03 22:08:50,817 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_home_base'====== Args={'prev_value': None, 'change': True, 'value': 18}
+2019-06-03 22:08:50,818 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_left_target_1'====== Args={'prev_value': None, 'change': True, 'value': 15}
+2019-06-03 22:08:50,819 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_drain'====== Args={'prev_value': None, 'change': True, 'value': 232}
+2019-06-03 22:08:50,820 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_left_target_2'====== Args={'prev_value': None, 'change': True, 'value': 5}
+2019-06-03 22:08:50,821 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_inside_outlane'====== Args={'prev_value': None, 'change': True, 'value': 0}
+2019-06-03 22:08:50,822 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_left_slingshot'====== Args={'prev_value': None, 'change': True, 'value': 97}
+2019-06-03 22:08:50,823 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_r_varitarget_200'====== Args={'prev_value': None, 'change': True, 'value': 0}
+2019-06-03 22:08:50,824 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_center_pop_bumper'====== Args={'prev_value': None, 'change': True, 'value': 271}
+2019-06-03 22:08:50,826 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_l_pop_bumper'====== Args={'prev_value': None, 'change': True, 'value': 0}
+2019-06-03 22:08:50,827 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_right_vt_100'====== Args={'prev_value': None, 'change': True, 'value': 0}
+2019-06-03 22:08:50,828 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_r_varitarget_300'====== Args={'prev_value': None, 'change': True, 'value': 0}
+2019-06-03 22:08:50,829 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_right_target_3'====== Args={'prev_value': None, 'change': True, 'value': 18}
+2019-06-03 22:08:50,830 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_l_varitarget_500'====== Args={'prev_value': None, 'change': True, 'value': 1}
+2019-06-03 22:08:50,832 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_upper_lanes_10pts'====== Args={'prev_value': None, 'change': True, 'value': 74}
+2019-06-03 22:08:50,833 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_lower_target_1'====== Args={'prev_value': None, 'change': True, 'value': 12}
+2019-06-03 22:08:50,834 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_right_vt_300'====== Args={'prev_value': None, 'change': True, 'value': 0}
+2019-06-03 22:08:50,835 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_lower_target_3'====== Args={'prev_value': None, 'change': True, 'value': 40}
+2019-06-03 22:08:50,837 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_l_varitarget_100'====== Args={'prev_value': None, 'change': True, 'value': 0}
+2019-06-03 22:08:50,838 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_right_pop_bumper'====== Args={'prev_value': None, 'change': True, 'value': 228}
+2019-06-03 22:08:50,839 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_second_base'====== Args={'prev_value': None, 'change': True, 'value': 25}
+2019-06-03 22:08:50,841 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_third_base'====== Args={'prev_value': None, 'change': True, 'value': 2}
+2019-06-03 22:08:50,842 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_outside_outlane'====== Args={'prev_value': None, 'change': True, 'value': 1}
+2019-06-03 22:08:50,844 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_r_varitarget_100'====== Args={'prev_value': None, 'change': True, 'value': 462}
+2019-06-03 22:08:50,846 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_l_target_double'====== Args={'prev_value': None, 'change': True, 'value': 4}
+2019-06-03 22:08:50,847 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_double_lanes'====== Args={'prev_value': None, 'change': True, 'value': 35}
+2019-06-03 22:08:50,849 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_start'====== Args={'prev_value': None, 'change': True, 'value': 5}
+2019-06-03 22:08:50,850 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_r_target_double'====== Args={'prev_value': None, 'change': True, 'value': 5}
+2019-06-03 22:08:50,852 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_c_pop_bumper'====== Args={'prev_value': None, 'change': True, 'value': 0}
+2019-06-03 22:08:50,853 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_left_vt_inplay'====== Args={'prev_value': None, 'change': True, 'value': 0}
+2019-06-03 22:08:50,855 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_left_target_3'====== Args={'prev_value': None, 'change': True, 'value': 10}
+2019-06-03 22:08:50,856 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_right_slingshot'====== Args={'prev_value': None, 'change': True, 'value': 79}
+2019-06-03 22:08:50,858 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_right_flipper'====== Args={'prev_value': None, 'change': True, 'value': 421}
+2019-06-03 22:08:50,859 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_right_vt_500'====== Args={'prev_value': None, 'change': True, 'value': 672}
+2019-06-03 22:08:50,861 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_r_target_triple'====== Args={'prev_value': None, 'change': True, 'value': 2}
+2019-06-03 22:08:50,862 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_right_target_1'====== Args={'prev_value': None, 'change': True, 'value': 11}
+2019-06-03 22:08:50,864 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_r_slingshot'====== Args={'prev_value': None, 'change': True, 'value': 0}
+2019-06-03 22:08:50,865 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_l_varitarget_200'====== Args={'prev_value': None, 'change': True, 'value': 0}
+2019-06-03 22:08:50,867 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_left_vt_100'====== Args={'prev_value': None, 'change': True, 'value': 0}
+2019-06-03 22:08:50,869 : INFO : EventManager : Event: ======'machine_var_audits_player_score'====== Args={'prev_value': None, 'change': True, 'value': {'average': 20251.36363636364, 'top': [83750, 64940, 59970, 47360, 40860, 29600, 29350, 28530, 25290, 17110], 'total': 22}}
+2019-06-03 22:08:50,871 : INFO : EventManager : Event: ======'init_phase_5'====== Args={}
+2019-06-03 22:08:50,955 : INFO : EventManager : Event: ======'init_done'====== Args={}
+2019-06-03 22:08:50,955 : INFO : EventManager : Event: ======'machine_reset_phase_1'====== Args={}
+2019-06-03 22:08:50,961 : INFO : EventManager : Event: ======'machine_reset_phase_2'====== Args={}
+2019-06-03 22:08:50,961 : INFO : EventManager : Event: ======'machine_reset_phase_3'====== Args={}
+2019-06-03 22:08:50,961 : INFO : EventManager : Event: ======'reset_complete'====== Args={}
+2019-06-03 22:08:50,962 : INFO : EventManager : Event: ======'mode_attract_will_start'====== Args={}
+2019-06-03 22:08:50,963 : INFO : EventManager : Event: ======'mode_attract_starting'====== Args={}
+2019-06-03 22:08:50,964 : INFO : Mode.attract : Started. Priority: 10
+2019-06-03 22:08:50,965 : INFO : EventManager : Event: ======'mode_attract_started'====== Args={}
+2019-06-03 22:08:50,967 : INFO : EventManager : Event: ======'collecting_balls_complete'====== Args={}
+2019-06-03 22:08:50,968 : INFO : Machine : Starting the main run loop.
+2019-06-03 22:08:51,064 : INFO : EventManager : Event: ======'slide_awesome_slide_created'====== Args={'_from_bcp': True}
+2019-06-03 22:08:51,065 : INFO : EventManager : Event: ======'slide_awesome_slide_active'====== Args={'_from_bcp': True}
+2019-06-03 22:08:53,992 : INFO : EventManager : Event: ======'slide_press_start_created'====== Args={'_from_bcp': True}
+2019-06-03 22:08:54,000 : INFO : EventManager : Event: ======'slide_press_start_active'====== Args={'_from_bcp': True}
+2019-06-03 22:08:56,998 : INFO : EventManager : Event: ======'slide_mission_pinball_created'====== Args={'_from_bcp': True}
+2019-06-03 22:08:57,003 : INFO : EventManager : Event: ======'slide_mission_pinball_active'====== Args={'_from_bcp': True}
+2019-06-03 22:08:59,979 : INFO : EventManager : Event: ======'slide_awesome_slide_removed'====== Args={'_from_bcp': True}
+2019-06-03 22:08:59,985 : INFO : EventManager : Event: ======'slide_awesome_slide_created'====== Args={'_from_bcp': True}
+2019-06-03 22:08:59,989 : INFO : EventManager : Event: ======'slide_awesome_slide_active'====== Args={'_from_bcp': True}
+2019-06-03 22:09:02,986 : INFO : EventManager : Event: ======'slide_press_start_removed'====== Args={'_from_bcp': True}
+2019-06-03 22:09:03,000 : INFO : EventManager : Event: ======'slide_press_start_created'====== Args={'_from_bcp': True}
+2019-06-03 22:09:03,081 : INFO : EventManager : Event: ======'slide_press_start_active'====== Args={'_from_bcp': True}
+2019-06-03 22:09:05,989 : INFO : EventManager : Event: ======'slide_mission_pinball_removed'====== Args={'_from_bcp': True}
+2019-06-03 22:09:05,996 : INFO : EventManager : Event: ======'slide_mission_pinball_created'====== Args={'_from_bcp': True}
+2019-06-03 22:09:06,001 : INFO : EventManager : Event: ======'slide_mission_pinball_active'====== Args={'_from_bcp': True}
+2019-06-03 22:09:08,985 : INFO : EventManager : Event: ======'slide_awesome_slide_removed'====== Args={'_from_bcp': True}
+2019-06-03 22:09:08,987 : INFO : EventManager : Event: ======'slide_awesome_slide_created'====== Args={'_from_bcp': True}
+2019-06-03 22:09:08,991 : INFO : EventManager : Event: ======'slide_awesome_slide_active'====== Args={'_from_bcp': True}
+2019-06-03 22:09:11,996 : INFO : EventManager : Event: ======'slide_press_start_removed'====== Args={'_from_bcp': True}
+2019-06-03 22:09:12,004 : INFO : EventManager : Event: ======'slide_press_start_created'====== Args={'_from_bcp': True}
+2019-06-03 22:09:12,081 : INFO : EventManager : Event: ======'slide_press_start_active'====== Args={'_from_bcp': True}
+2019-06-03 22:09:15,005 : INFO : EventManager : Event: ======'slide_mission_pinball_removed'====== Args={'_from_bcp': True}
+2019-06-03 22:09:15,082 : INFO : EventManager : Event: ======'slide_mission_pinball_created'====== Args={'_from_bcp': True}
+2019-06-03 22:09:15,082 : INFO : EventManager : Event: ======'slide_mission_pinball_active'====== Args={'_from_bcp': True}
+2019-06-03 22:09:17,983 : INFO : EventManager : Event: ======'slide_awesome_slide_removed'====== Args={'_from_bcp': True}
+2019-06-03 22:09:17,989 : INFO : EventManager : Event: ======'slide_awesome_slide_created'====== Args={'_from_bcp': True}
+2019-06-03 22:09:17,994 : INFO : EventManager : Event: ======'slide_awesome_slide_active'====== Args={'_from_bcp': True}
+2019-06-03 22:09:20,983 : INFO : EventManager : Event: ======'slide_press_start_removed'====== Args={'_from_bcp': True}
+2019-06-03 22:09:20,992 : INFO : EventManager : Event: ======'slide_press_start_created'====== Args={'_from_bcp': True}
+2019-06-03 22:09:20,997 : INFO : EventManager : Event: ======'slide_press_start_active'====== Args={'_from_bcp': True}
+2019-06-03 22:09:24,005 : INFO : EventManager : Event: ======'slide_mission_pinball_removed'====== Args={'_from_bcp': True}
+2019-06-03 22:09:24,081 : INFO : EventManager : Event: ======'slide_mission_pinball_created'====== Args={'_from_bcp': True}
+2019-06-03 22:09:24,082 : INFO : EventManager : Event: ======'slide_mission_pinball_active'====== Args={'_from_bcp': True}
+2019-06-03 22:09:26,980 : INFO : EventManager : Event: ======'slide_awesome_slide_removed'====== Args={'_from_bcp': True}
+2019-06-03 22:09:26,989 : INFO : EventManager : Event: ======'slide_awesome_slide_created'====== Args={'_from_bcp': True}
+2019-06-03 22:09:26,993 : INFO : EventManager : Event: ======'slide_awesome_slide_active'====== Args={'_from_bcp': True}
+2019-06-03 22:09:29,990 : INFO : EventManager : Event: ======'slide_press_start_removed'====== Args={'_from_bcp': True}
+2019-06-03 22:09:30,001 : INFO : EventManager : Event: ======'slide_press_start_created'====== Args={'_from_bcp': True}
+2019-06-03 22:09:30,084 : INFO : EventManager : Event: ======'slide_press_start_active'====== Args={'_from_bcp': True}
+2019-06-03 22:09:32,998 : INFO : EventManager : Event: ======'slide_mission_pinball_removed'====== Args={'_from_bcp': True}
+2019-06-03 22:09:33,001 : INFO : EventManager : Event: ======'slide_mission_pinball_created'====== Args={'_from_bcp': True}
+2019-06-03 22:09:33,005 : INFO : EventManager : Event: ======'slide_mission_pinball_active'====== Args={'_from_bcp': True}
+2019-06-03 22:09:35,989 : INFO : EventManager : Event: ======'slide_awesome_slide_removed'====== Args={'_from_bcp': True}
+2019-06-03 22:09:35,991 : INFO : EventManager : Event: ======'slide_awesome_slide_created'====== Args={'_from_bcp': True}
+2019-06-03 22:09:35,995 : INFO : EventManager : Event: ======'slide_awesome_slide_active'====== Args={'_from_bcp': True}
+2019-06-03 22:09:38,989 : INFO : EventManager : Event: ======'slide_press_start_removed'====== Args={'_from_bcp': True}
+2019-06-03 22:09:39,001 : INFO : EventManager : Event: ======'slide_press_start_created'====== Args={'_from_bcp': True}
+2019-06-03 22:09:39,008 : INFO : EventManager : Event: ======'slide_press_start_active'====== Args={'_from_bcp': True}
+2019-06-03 22:09:42,006 : INFO : EventManager : Event: ======'slide_mission_pinball_removed'====== Args={'_from_bcp': True}
+2019-06-03 22:09:42,084 : INFO : EventManager : Event: ======'slide_mission_pinball_created'====== Args={'_from_bcp': True}
+2019-06-03 22:09:42,084 : INFO : EventManager : Event: ======'slide_mission_pinball_active'====== Args={'_from_bcp': True}
+2019-06-03 22:09:44,984 : INFO : EventManager : Event: ======'slide_awesome_slide_removed'====== Args={'_from_bcp': True}
+2019-06-03 22:09:44,992 : INFO : EventManager : Event: ======'slide_awesome_slide_created'====== Args={'_from_bcp': True}
+2019-06-03 22:09:44,996 : INFO : EventManager : Event: ======'slide_awesome_slide_active'====== Args={'_from_bcp': True}
+2019-06-03 22:09:47,980 : INFO : EventManager : Event: ======'slide_press_start_removed'====== Args={'_from_bcp': True}
+2019-06-03 22:09:47,990 : INFO : EventManager : Event: ======'slide_press_start_created'====== Args={'_from_bcp': True}
+2019-06-03 22:09:47,995 : INFO : EventManager : Event: ======'slide_press_start_active'====== Args={'_from_bcp': True}
+2019-06-03 22:09:50,988 : INFO : EventManager : Event: ======'slide_mission_pinball_removed'====== Args={'_from_bcp': True}
+2019-06-03 22:09:50,996 : INFO : EventManager : Event: ======'slide_mission_pinball_created'====== Args={'_from_bcp': True}
+2019-06-03 22:09:51,001 : INFO : EventManager : Event: ======'slide_mission_pinball_active'====== Args={'_from_bcp': True}
+2019-06-03 22:09:53,978 : INFO : EventManager : Event: ======'slide_awesome_slide_removed'====== Args={'_from_bcp': True}
+2019-06-03 22:09:53,990 : INFO : EventManager : Event: ======'slide_awesome_slide_created'====== Args={'_from_bcp': True}
+2019-06-03 22:09:53,995 : INFO : EventManager : Event: ======'slide_awesome_slide_active'====== Args={'_from_bcp': True}
+2019-06-03 22:09:56,991 : INFO : EventManager : Event: ======'slide_press_start_removed'====== Args={'_from_bcp': True}
+2019-06-03 22:09:56,995 : INFO : EventManager : Event: ======'slide_press_start_created'====== Args={'_from_bcp': True}
+2019-06-03 22:09:57,004 : INFO : EventManager : Event: ======'slide_press_start_active'====== Args={'_from_bcp': True}
+2019-06-03 22:10:00,002 : INFO : EventManager : Event: ======'slide_mission_pinball_removed'====== Args={'_from_bcp': True}
+2019-06-03 22:10:00,003 : INFO : EventManager : Event: ======'slide_mission_pinball_created'====== Args={'_from_bcp': True}
+2019-06-03 22:10:00,090 : INFO : EventManager : Event: ======'slide_mission_pinball_active'====== Args={'_from_bcp': True}
+2019-06-03 22:10:02,981 : INFO : EventManager : Event: ======'slide_awesome_slide_removed'====== Args={'_from_bcp': True}
+2019-06-03 22:10:02,991 : INFO : EventManager : Event: ======'slide_awesome_slide_created'====== Args={'_from_bcp': True}
+2019-06-03 22:10:02,996 : INFO : EventManager : Event: ======'slide_awesome_slide_active'====== Args={'_from_bcp': True}
+2019-06-03 22:10:05,992 : INFO : EventManager : Event: ======'slide_press_start_removed'====== Args={'_from_bcp': True}
+2019-06-03 22:10:05,993 : INFO : EventManager : Event: ======'slide_press_start_created'====== Args={'_from_bcp': True}
+2019-06-03 22:10:06,003 : INFO : EventManager : Event: ======'slide_press_start_active'====== Args={'_from_bcp': True}
+2019-06-03 22:10:09,007 : INFO : EventManager : Event: ======'slide_mission_pinball_removed'====== Args={'_from_bcp': True}
+2019-06-03 22:10:09,084 : INFO : EventManager : Event: ======'slide_mission_pinball_created'====== Args={'_from_bcp': True}
+2019-06-03 22:10:09,084 : INFO : EventManager : Event: ======'slide_mission_pinball_active'====== Args={'_from_bcp': True}
+2019-06-03 22:10:11,982 : INFO : EventManager : Event: ======'slide_awesome_slide_removed'====== Args={'_from_bcp': True}
+2019-06-03 22:10:11,998 : INFO : EventManager : Event: ======'slide_awesome_slide_created'====== Args={'_from_bcp': True}
+2019-06-03 22:10:12,003 : INFO : EventManager : Event: ======'slide_awesome_slide_active'====== Args={'_from_bcp': True}
+2019-06-03 22:10:14,978 : INFO : EventManager : Event: ======'slide_press_start_removed'====== Args={'_from_bcp': True}
+2019-06-03 22:10:14,988 : INFO : EventManager : Event: ======'slide_press_start_created'====== Args={'_from_bcp': True}
+2019-06-03 22:10:14,994 : INFO : EventManager : Event: ======'slide_press_start_active'====== Args={'_from_bcp': True}
+2019-06-03 22:10:17,989 : INFO : EventManager : Event: ======'slide_mission_pinball_removed'====== Args={'_from_bcp': True}
+2019-06-03 22:10:17,997 : INFO : EventManager : Event: ======'slide_mission_pinball_created'====== Args={'_from_bcp': True}
+2019-06-03 22:10:18,002 : INFO : EventManager : Event: ======'slide_mission_pinball_active'====== Args={'_from_bcp': True}
+2019-06-03 22:10:20,983 : INFO : EventManager : Event: ======'slide_awesome_slide_removed'====== Args={'_from_bcp': True}
+2019-06-03 22:10:20,986 : INFO : EventManager : Event: ======'slide_awesome_slide_created'====== Args={'_from_bcp': True}
+2019-06-03 22:10:20,991 : INFO : EventManager : Event: ======'slide_awesome_slide_active'====== Args={'_from_bcp': True}
+2019-06-03 22:10:23,982 : INFO : EventManager : Event: ======'slide_press_start_removed'====== Args={'_from_bcp': True}
+2019-06-03 22:10:23,995 : INFO : EventManager : Event: ======'slide_press_start_created'====== Args={'_from_bcp': True}
+2019-06-03 22:10:24,001 : INFO : EventManager : Event: ======'slide_press_start_active'====== Args={'_from_bcp': True}
+2019-06-03 22:10:26,996 : INFO : EventManager : Event: ======'slide_mission_pinball_removed'====== Args={'_from_bcp': True}
+2019-06-03 22:10:27,006 : INFO : EventManager : Event: ======'slide_mission_pinball_created'====== Args={'_from_bcp': True}
+2019-06-03 22:10:27,089 : INFO : EventManager : Event: ======'slide_mission_pinball_active'====== Args={'_from_bcp': True}
+2019-06-03 22:10:29,995 : INFO : EventManager : Event: ======'slide_awesome_slide_removed'====== Args={'_from_bcp': True}
+2019-06-03 22:10:30,002 : INFO : EventManager : Event: ======'slide_awesome_slide_created'====== Args={'_from_bcp': True}
+2019-06-03 22:10:30,007 : INFO : EventManager : Event: ======'slide_awesome_slide_active'====== Args={'_from_bcp': True}
+2019-06-03 22:10:32,992 : INFO : EventManager : Event: ======'slide_press_start_removed'====== Args={'_from_bcp': True}
+2019-06-03 22:10:32,997 : INFO : EventManager : Event: ======'slide_press_start_created'====== Args={'_from_bcp': True}
+2019-06-03 22:10:33,005 : INFO : EventManager : Event: ======'slide_press_start_active'====== Args={'_from_bcp': True}
+2019-06-03 22:10:36,086 : INFO : EventManager : Event: ======'slide_mission_pinball_removed'====== Args={'_from_bcp': True}
+2019-06-03 22:10:36,086 : INFO : EventManager : Event: ======'slide_mission_pinball_created'====== Args={'_from_bcp': True}
+2019-06-03 22:10:36,087 : INFO : EventManager : Event: ======'slide_mission_pinball_active'====== Args={'_from_bcp': True}
+2019-06-03 22:10:39,006 : INFO : EventManager : Event: ======'slide_awesome_slide_removed'====== Args={'_from_bcp': True}
+2019-06-03 22:10:39,007 : INFO : EventManager : Event: ======'slide_awesome_slide_created'====== Args={'_from_bcp': True}
+2019-06-03 22:10:39,090 : INFO : EventManager : Event: ======'slide_awesome_slide_active'====== Args={'_from_bcp': True}
+2019-06-03 22:10:41,987 : INFO : EventManager : Event: ======'slide_press_start_removed'====== Args={'_from_bcp': True}
+2019-06-03 22:10:42,001 : INFO : EventManager : Event: ======'slide_press_start_created'====== Args={'_from_bcp': True}
+2019-06-03 22:10:42,005 : INFO : EventManager : Event: ======'slide_press_start_active'====== Args={'_from_bcp': True}
+2019-06-03 22:10:44,996 : INFO : EventManager : Event: ======'slide_mission_pinball_removed'====== Args={'_from_bcp': True}
+2019-06-03 22:10:44,997 : INFO : EventManager : Event: ======'slide_mission_pinball_created'====== Args={'_from_bcp': True}
+2019-06-03 22:10:45,004 : INFO : EventManager : Event: ======'slide_mission_pinball_active'====== Args={'_from_bcp': True}
+2019-06-03 22:10:47,974 : INFO : EventManager : Event: ======'slide_awesome_slide_removed'====== Args={'_from_bcp': True}
+2019-06-03 22:10:47,983 : INFO : EventManager : Event: ======'slide_awesome_slide_created'====== Args={'_from_bcp': True}
+2019-06-03 22:10:47,986 : INFO : EventManager : Event: ======'slide_awesome_slide_active'====== Args={'_from_bcp': True}
+2019-06-03 22:10:50,981 : INFO : EventManager : Event: ======'slide_press_start_removed'====== Args={'_from_bcp': True}
+2019-06-03 22:10:50,996 : INFO : EventManager : Event: ======'slide_press_start_created'====== Args={'_from_bcp': True}
+2019-06-03 22:10:51,001 : INFO : EventManager : Event: ======'slide_press_start_active'====== Args={'_from_bcp': True}
+2019-06-03 22:10:51,907 : INFO : Machine : Shutting down...
+2019-06-03 22:10:51,907 : INFO : EventManager : Event: ======'shutdown'====== Args={}
+2019-06-03 22:10:51,919 : INFO : root : MPF run loop ended.

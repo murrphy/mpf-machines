@@ -1,0 +1,17 @@
+#config_version=5
+
+lights:
+  l_right_target_3:
+    number: 0-0
+  l_right_target_2:
+    number: 0-1
+  l_right_target_1:
+    number: 0-2
+  l_left_target_1:
+    number: 0-3
+  l_left_target_2:
+    number: 0-4
+  l_left_target_3:
+    number: 0-5
+  l_shoot_ball:
+    number: 0-6
