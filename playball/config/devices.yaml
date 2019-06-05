@@ -1,0 +1,35 @@
+#config_version=5
+
+ball_devices:
+  bd_drain:
+    ball_switches: s_drain
+    eject_coil: c_drain_eject
+    eject_targets: playfield
+    tags: drain, home, trough
+
+autofire_coils:
+  left_slingshot:
+    coil: c_left_slingshot
+    switch: s_left_slingshot
+  right_slightshot:
+    coil: c_right_slingshot
+    switch: s_right_slingshot
+  left_pop_bumper:
+    coil: c_left_pop_bumper
+    switch: s_left_pop_bumper
+  right_pop_bumper:
+    coil: c_right_pop_bumper
+    switch: s_right_pop_bumper
+  center_pop_bumper:
+    coil: c_center_pop_bumper
+    switch: s_center_pop_bumper
+
+flippers:
+  left_flipper:
+    main_coil: c_flipper_left_main
+    hold_coil: c_flipper_left_hold
+    activation_switch: s_left_flipper
+  right_flipper:
+    main_coil: c_flipper_right_main
+    hold_coil: c_flipper_right_hold
+    activation_switch: s_right_flipper

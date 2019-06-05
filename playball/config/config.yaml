@@ -1,1 +1,32 @@
 #config_version=5
+
+hardware:
+  platform: fast
+  driverboards: fast
+  rgb_dmd: smartmatrix
+
+smartmatrix:
+  dmd:
+    port: /dev/ttyUSB4
+    baud: 2500000
+    
+fast:
+  ports: /dev/ttyUSB1, /dev/ttyUSB2
+  
+
+playfields:
+  playfield:
+    default_source_device: bd_drain
+    tags: default
+
+
+    
+
+
+modes:
+  - base
+  - l_varitarget
+  - r_varitarget
+
+virtual_platform_start_active_switches:
+  #s_drain

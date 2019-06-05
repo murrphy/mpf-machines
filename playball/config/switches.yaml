@@ -1,0 +1,144 @@
+switches:
+# Switch List (<board>-<switch-no>)
+# 0-0	left "3" target
+# 0-1	left "2" target
+# 0-2	left "1" target
+# 0-3	right "1" target
+# 0-4	right "2" target 
+# 0-5	right "3" target
+# 0-6	triple lanes
+# 0-7	center pop-bumper
+# 0-8	drain
+# 0-9	home run lanes
+# 0-10	single lanes
+# 0-11	first base rollover
+# 0-12	second base rollover
+# 0-13	third base rollover
+# 0-14	home base rollover
+# 0-15	double lanes
+# 0-16	right varitarget "in-play"
+# 0-17	left varitarget "in-play"
+# 0-18	right slingshot
+# 0-19	left slingshot
+# 0-20	lower "1" target
+# 0-21	lower "3" target
+# 0-22	right pop-bumper
+# 0-23	left pop-bumper
+# 0-24	right varitarget "100"
+# 0-25	right varitarget "200"
+# 0-26	right varitarget "300"
+# 0-27	right varitarget "500"
+# 0-28	left varitarget "100"
+# 0-29	left varitarget "200"
+# 0-30	left varitarget "300"
+# 0-31	left varitarget "500"
+# 1-0	all bumper switches
+# 1-5	game start
+# 1-6	left flipper
+# 1-7	right flipper
+
+  s_drain:
+    number: 0-8
+    tags: drain
+  s_home_run_lanes:
+    number: 0-9
+    tags: playfield_active
+  s_single_lanes:
+    number: 0-10
+    tags: playfield_active
+  s_first_base:
+    number: 0-11
+    tags: playfield_active
+  s_second_base:
+    number: 0-12
+    tags: playfield_active
+  s_third_base:
+    number: 0-13
+    tags: playfield_active
+  s_home_base:
+    number: 0-14
+    tags: playfield_active
+  s_double_lanes:
+    number: 0-15
+    tags: playfield_active
+  s_right_vt_inplay:
+    number: 0-16
+    tags: playfield_active, rvt_inplay
+    events_when_activated: collect_varitarget_r
+  s_right_vt_100:
+    number: 0-24
+    tags: playfield_active
+  s_right_vt_200:
+    number: 0-25
+    tags: playfield_active
+  s_right_vt_300:
+    number: 0-26
+    tags: playfield_active
+  s_right_vt_500:
+    number: 0-27
+    tags: playfield_active
+  s_right_slingshot:
+    number: 0-18
+  s_left_slingshot:
+    number: 0-19
+  s_left_vt_inplay:
+    number: 0-17
+    tags: playfield_active, lvt_inplay
+    events_when_activated: collect_varitarget_l
+  s_left_vt_100:
+    number: 0-28
+    tags: playfield_active
+  s_left_vt_200:
+    number: 0-29
+    tags: playfield_active
+  s_left_vt_300:
+    number: 0-30
+    tags: playfield_active
+  s_left_vt_500:
+    number: 0-31
+    tags: playfield_active
+  s_right_pop_bumper:
+    number: 0-22
+  s_left_pop_bumper:
+    number: 0-23
+  s_center_pop_bumper:
+    number: 0-7
+  s_lower_target_1:
+    number: 0-20
+    tags: playfield_active
+  s_lower_target_3:
+    number: 0-21
+    tags: playfield_active
+  s_left_target_3:
+    number: 0-0
+    tags: playfield_active
+  s_left_target_2:
+    number: 0-1
+    tags: playfield_active
+  s_left_target_1:
+    number: 0-2
+    tags: playfield_active
+  s_right_target_1:
+    number: 0-3
+    tags: playfield_active
+  s_right_target_2:
+    number: 0-4
+    tags: playfield_active
+  s_right_target_3:
+    number: 0-5
+    tags: playfield_active
+  s_bumpers:
+    number: 1-0
+    tags: playfield_active
+  s_triple_lanes:
+    number: 0-6
+    tags: playfield_active
+  s_start:
+    number: 1-5
+    tags: start
+  s_left_flipper:
+    number: 1-6
+    tags: left_flipper, playfield_active
+  s_right_flipper:
+    number: 1-7
+    tags: right_flipper, playfield_active
