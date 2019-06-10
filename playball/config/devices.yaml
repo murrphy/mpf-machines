@@ -3,6 +3,7 @@
 ball_devices:
   bd_drain:
     ball_switches: s_drain
+    entrance_count_delay: 300ms
     eject_coil: c_drain_eject
     eject_targets: playfield
     tags: drain, home, trough

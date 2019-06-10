@@ -1,3 +1,5 @@
+#config_version=5
+
 switches:
 # Switch List (<board>-<switch-no>)
 # 0-0	left "3" target
@@ -39,7 +41,7 @@ switches:
 
   s_drain:
     number: 0-8
-    tags: drain
+    tags: drain, 
   s_home_run_lanes:
     number: 0-9
     tags: playfield_active
@@ -136,6 +138,7 @@ switches:
   s_start:
     number: 1-5
     tags: start
+    label: "Start"
   s_left_flipper:
     number: 1-6
     tags: left_flipper, playfield_active

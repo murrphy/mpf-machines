@@ -1,7 +1,7 @@
 #config_version=5
 
 game:
-  balls_per_game: 5
+  balls_per_game: 2
 
 machine:
   balls_installed: 1
@@ -9,5 +9,16 @@ machine:
 
 config:
  - coils.yaml
- - switches.yaml
+ - devices.yaml
  - lights.yaml
+ - switches.yaml
+ - virtual.yaml
+
+playfields:
+  playfield:
+    default_source_device: bd_drain
+    tags: default
+
+modes:
+  - l_varitarget
+  - r_varitarget

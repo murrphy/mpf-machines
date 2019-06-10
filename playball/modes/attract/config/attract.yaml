@@ -1,7 +1,19 @@
 #config_version=5
 
-show_player:
-  mode_attract_started: attract_display_loop
-  mode_attract_started.1: 
-   attract_light_show:
-     speed: 4
+# show_player:
+#   mode_attract_started: attract_display_loop
+#   mode_attract_started.1: 
+#    attract_light_show:
+#      speed: 4
+
+slides:
+  dmd_slide_1:
+  - type: text
+    text: It Works!
+    font_size: 30
+    color: red
+
+slide_player:
+  mode_base_started:
+    dmd_slide_1:
+      target: dmd
