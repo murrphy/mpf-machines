@@ -20,5 +20,7 @@ playfields:
     tags: default
 
 modes:
+  - base
+  - score_display
   - l_varitarget
   - r_varitarget

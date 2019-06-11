@@ -8,7 +8,7 @@ hardware:
 smartmatrix:
   smartmatrix_1:
     port: "/dev/ttyUSB4"
-    baud: 4000000
+    baud: 3000000
     old_cookie: false
 
 displays:
@@ -25,47 +25,10 @@ window:
   height: 200
   title: Mission Pinball Framework vDMD
 
-slides:
-  window_slide_1:
-    - type: display
-      effects:
-      - type: color_dmd
-      width: 512
-      height: 128
-    - type: text
-      text: MISSION PINBALL FRAMEWORK
-      anchor_y: top
-      y: top-3
-      font_size: 30
-      color: white
-    - type: rectangle
-      width: 514
-      height: 130
-      color: 444444
-
-  dmd_slide_1:
-    - type: text
-      text: MISSION PINBALL FRAMEWORK
-      anchor_y: top
-      y: top-3
-      font_size: 30
-      color: white
-    - type: rectangle
-      width: 128
-      height: 32
-      color: 444444
-
-slide_player:
-  init_done:
-    window_slide_1:
-      target: window
-      slide: window_slide_1
-      priority: 100
-      
 rgb_dmds:
   smartmatrix_1:
     hardware_brightness: 0.3
-    fps: 20
+    fps: 24
     source_display: dmd  
 
 fast:
