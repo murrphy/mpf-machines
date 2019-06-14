@@ -5,7 +5,10 @@ ball_devices:
     ball_switches: s_drain
     entrance_count_delay: 300ms
     eject_coil: c_drain_eject
-    eject_targets: playfield
+    player_controlled_eject_event: s_right_flipper_active
+    confirm_eject_type: switch
+    confirm_eject_switch: s_drain
+    eject_timeouts: 3s
     tags: drain, home, trough
 
 autofire_coils:
