@@ -40,3 +40,4 @@ config:
 
 event_player:
   game_started: reset_left_varitarget, reset_right_varitarget
+  game_ending: reset_left_varitarget, reset_right_varitarget

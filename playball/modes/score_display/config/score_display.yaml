@@ -7,28 +7,16 @@ slide_player:
   mode_score_display_started:
     base_player_dmd_slide:
       target: dmd
-
-widgets:
-  current_player_score_widget:
-    - type: text
-      #text: "9,999,999,999,999"
-      text: (score)
-      font_name: atrox
-      number_grouping: true
-      font_size: 130
-      anchor_x: middle
-      anchor_y: top
-      x: middle-95
-      y: top-200
-      z: 5
-
+    base_player_window_slide:
+      target: window
+    
 slides:
   base_player_dmd_slide:
     widgets:
       - type: text
         text: (score)
         number_grouping: true
-        color: ffffff
+        color: f87217
         min_digits: 2
         style: dmd_big
         x: center
@@ -37,12 +25,42 @@ slides:
         anchor_y: top
       - type: text
         text: PLAYER (number)
+        color: f87217
         y: 0
         x: 0
         style: dmd_small
         anchor_x: left
         anchor_y: bottom
       - type: text
+        text: BALL (ball)
+        color: f87217
+        y: 0
+        x: right
+        anchor_x: right
+        anchor_y: bottom
+        style: dmd_small
+  base_player_window_slide:
+    widgets:
+      - type: text
+        text: (score)
+        number_grouping: true
+        color: f87217
+        min_digits: 2
+        style: dmd_big
+        x: center
+        y: top - 5
+        anchor_x: center
+        anchor_y: top
+      - type: text
+        color: f87217
+        text: PLAYER (number)
+        y: 0
+        x: 0
+        style: dmd_small
+        anchor_x: left
+        anchor_y: bottom
+      - type: text
+        color: f87217
         text: BALL (ball)
         y: 0
         x: right

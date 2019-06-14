@@ -1,7 +1,8 @@
 #config_version=5
 mode:
-  start_events: game start
+  start_events: ball_starting
   priority: 100
+
 variable_player:
   s_left_pop_bumper_active:
     score: 10
