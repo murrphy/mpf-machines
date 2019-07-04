@@ -56,9 +56,11 @@ coils:
   c_left_pop_bumper:
     number: 0-6
     allow_enable: true
+    default_pulse_power: 0.7
   c_right_pop_bumper:
     number: 0-3
     allow_enable: true
+    default_pulse_power: 0.7
   c_left_varitarget_release:
     number: 0-4
     pulse_events: reset_left_varitarget
@@ -70,3 +72,4 @@ coils:
   c_center_pop_bumper:
     number: 0-7
     allow_enable: true
+    default_pulse_power: 0.7
