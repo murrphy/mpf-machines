@@ -9,6 +9,12 @@
     l_left_target_2: ffac44
     l_left_target_3: 000000
     l_shoot_ball: ffac44
+    l_home: 000000
+    l_first_base: ffac44
+    l_second_base: 000000
+    l_third_base: ffac44
+    l_target_1: 000000
+    l_target_3: ffac44
 
 - duration: 1
   lights:
@@ -19,4 +25,10 @@
     l_left_target_2: 000000
     l_left_target_3: ffac44
     l_shoot_ball: 000000
+    l_home: ffac44
+    l_first_base: 000000
+    l_second_base: ffac44
+    l_third_base: 000000
+    l_target_1: ffac44
+    l_target_3: 000000
 
