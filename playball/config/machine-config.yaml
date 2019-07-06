@@ -24,3 +24,6 @@ modes:
   - score_display
   - l_varitarget
   - r_varitarget
+  - ones_lit
+  - twos_lit
+  - threes_lit

@@ -1,0 +1,11 @@
+#config_version=5
+mode:
+  start_events: sw_ones_active, game_started
+  stop_events: sw_first_base_rollover_active
+  priority: 100
+
+show_player:
+  mode_ones_lit_started:
+    ones_on: play
+  mode_ones_lit_stopped:
+    ones_off: play
