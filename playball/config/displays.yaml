@@ -1,0 +1,12 @@
+#config_version=5
+
+displays:
+  window:
+    width: 600
+    height: 200
+
+window:
+  width: 600
+  height: 200
+  title: Mission Pinball Framework vDMD
+

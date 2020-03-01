@@ -1,0 +1,10 @@
+#config_version=5
+
+playfields:
+  playfield:
+    default_source_device: bd_drain
+    tags: default
+
+machine:
+  balls_installed: 1
+  min_balls: 1
