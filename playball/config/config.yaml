@@ -36,7 +36,25 @@ fast:
   debug: True
 
 config:
-- machine-config.yaml
+        - coils.yaml
+        - devices.yaml
+        - displays.yaml
+        - dmds.yaml
+        - fast.yaml
+        - lights.yaml
+        - playfields.yaml
+        - switches.yaml
+        - virtual.yaml
+
+modes:
+        - attract
+        - base
+        - l_varitarget
+        - ones_lit
+        - r_varitarget
+        - score_display
+        - threes_lit
+        - twos_lit
 
 event_player:
   game_started: reset_left_varitarget, reset_right_varitarget
