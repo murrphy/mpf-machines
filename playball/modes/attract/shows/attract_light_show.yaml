@@ -2,33 +2,33 @@
 
 - duration: 1
   lights: 
-    l_right_target_3: ffac44
+    l_right_target_3: ff9329
     l_right_target_2: 000000
-    l_right_target_1: ffac44
+    l_right_target_1: ff9329
     l_left_target_1: 000000
-    l_left_target_2: ffac44
+    l_left_target_2: ff9329
     l_left_target_3: 000000
-    l_shoot_ball: ffac44
+    l_shoot_ball: ff9329
     l_home: 000000
-    l_first_base: ffac44
+    l_first_base: ff9329
     l_second_base: 000000
-    l_third_base: ffac44
+    l_third_base: ff9329
     l_target_1: 000000
-    l_target_3: ffac44
+    l_target_3: ff9329
 
 - duration: 1
   lights:
     l_right_target_3: 000000
-    l_right_target_2: ffac44
+    l_right_target_2: ff9329
     l_right_target_1: 000000
-    l_left_target_1: ffac44
+    l_left_target_1: ff9329
     l_left_target_2: 000000
-    l_left_target_3: ffac44
+    l_left_target_3: ff9329
     l_shoot_ball: 000000
-    l_home: ffac44
+    l_home: ff9329
     l_first_base: 000000
-    l_second_base: ffac44
+    l_second_base: ff9329
     l_third_base: 000000
-    l_target_1: ffac44
+    l_target_1: ff9329
     l_target_3: 000000
 
