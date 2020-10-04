@@ -10,30 +10,29 @@ slide_player:
     
 slides:
   base_player_dmd_slide:
-    widgets:
-      - type: text
-        text: (score)
-        style: dmd_big
-        number_grouping: true
-        color: f87217
-        min_digits: 2
-        x: center
-        y: top - 5
-        anchor_x: center
-        anchor_y: top
-      - type: text
-        text: PLAYER (number)
-        style: dmd_small
-        color: f87217
-        y: 0
-        x: 0
-        anchor_x: left
-        anchor_y: bottom
-      - type: text
-        text: BALL (ball)
-        style: dmd_small
-        color: f87217
-        y: 0
-        x: right
-        anchor_x: right
-        anchor_y: bottom
+    - type: text
+      text: (score)
+      style: dmd_big
+      number_grouping: true
+      color: f87217
+      min_digits: 2
+      x: center
+      y: top - 5
+      anchor_x: center
+      anchor_y: top
+    - type: text
+      text: PLAYER (number)
+      style: dmd_small
+      color: f87217
+      y: 0
+      x: 0
+      anchor_x: left
+      anchor_y: bottom
+    - type: text
+      text: BALL (ball)
+      style: dmd_small
+      color: f87217
+      y: 0
+      x: right
+      anchor_x: right
+      anchor_y: bottom
