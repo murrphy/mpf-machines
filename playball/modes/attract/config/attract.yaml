@@ -11,15 +11,8 @@ slides:
     text: Play Ball!
     font_size: 30
     color: f87217
-  window_slide_1:
-  - type: text
-    text: Play Ball!
-    font_size: 30
-    color: f87217
 
 slide_player:
   mode_attract_started:
     dmd_slide_1:
       target: dmd
-#slides_playslides_play    window_slide_1:
-#      target: window

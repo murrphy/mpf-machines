@@ -3,21 +3,9 @@ displays:
   dmd:
     width: 128
     height: 32
-    default: true
     
 rgb_dmds:
   smartmatrix_1:
     hardware_brightness: 0.3
     fps: 24
     source_display: dmd 
-
-# displays:
-#   window:
-#     width: 600
-#     height: 200
-
-# window:
-#   width: 600
-#   height: 200
-#   title: Mission Pinball Framework vDMD
-
