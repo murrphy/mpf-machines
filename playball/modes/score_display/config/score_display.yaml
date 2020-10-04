@@ -12,7 +12,7 @@ slides:
   base_player_dmd_slide:
     - type: text
       text: (score)
-      style: dmd_big
+      style: big
       number_grouping: true
       color: f87217
       min_digits: 2
@@ -22,7 +22,7 @@ slides:
       anchor_y: top
     - type: text
       text: PLAYER (number)
-      style: dmd_small
+      style: small
       color: f87217
       y: 0
       x: 0
@@ -30,7 +30,7 @@ slides:
       anchor_y: bottom
     - type: text
       text: BALL (ball)
-      style: dmd_small
+      style: small
       color: f87217
       y: 0
       x: right
