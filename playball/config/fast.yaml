@@ -3,8 +3,15 @@
 hardware:
   platform: fast
   driverboards: fast
+  rgb_dmd: smartmatrix
 
 fast:
   ports: /dev/ttyNET, /dev/ttyRGB
   watchdog: 0
   debug: True
+
+smartmatrix:
+  smartmatrix_1:
+    port: "/dev/ttyUSB4"
+    baud: 3000000
+    old_cookie: false
