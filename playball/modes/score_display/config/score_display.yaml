@@ -7,8 +7,6 @@ slide_player:
   mode_score_display_started:
     base_player_dmd_slide:
       target: dmd
-      #    base_player_window_slide:
-      #      target: window
     
 slides:
   base_player_dmd_slide:
@@ -39,31 +37,3 @@ slides:
         x: right
         anchor_x: right
         anchor_y: bottom
-        #  base_player_window_slide:
-        #widgets:
-#      - type: text
-#        text: (score)
-#        style: dmd_big
-#        number_grouping: true
-#        color: f87217
-#        min_digits: 2
-#        x: center
-#        y: top - 5
-#        anchor_x: center
-#        anchor_y: top
-#      - type: text
-#        color: f87217
-#        text: PLAYER (number)
-#        style: dmd_small
-#        y: 0
-#        x: 0
-#        anchor_x: left
-#        anchor_y: bottom
-#      - type: text
-#        color: f87217
-#        text: BALL (ball)
-#        style: dmd_small
-#        y: 0
-#        x: right
-#        anchor_x: right
-#        anchor_y: bottomdmd_big
